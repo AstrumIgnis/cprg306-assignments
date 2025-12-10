@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-function generateId() {
+function GenerateId() {
     return '_' + Math.random().toString(36).substring(2, 20);
 }
 
@@ -18,7 +18,7 @@ export default function NewItem({ onAddItem }) {
         event.preventDefault();
 
         const newItem = {
-            id: generateId(),
+            id: GenerateId(),
             name: name,
             quantity: quantity,
             category: category

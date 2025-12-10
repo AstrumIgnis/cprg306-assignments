@@ -6,6 +6,7 @@ import PageClient from './page-client';
 export default function Page() {
     return (
         <main>
+            <h1 className="text-3xl font-bold m-4">Shopping List</h1>
             <PageClient />
         </main>
     );
