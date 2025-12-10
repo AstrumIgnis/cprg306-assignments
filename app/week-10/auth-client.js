@@ -22,7 +22,7 @@ export default function AuthClient() {
             {user ? (
                 <div className="flex flex-col gap-4 max-w-xs">
                     <span>Signed in as {user.displayName}</span>
-                    <a className="text-lg hover:underline" href="/week-9/shopping-list">Continue to your Shopping List</a>
+                    <a className="text-lg hover:underline" href="/week-10/shopping-list">Continue to your Shopping List</a>
                     <button className="bg-blue-500 p-2 rounded-lg text-align" onClick={() => firebaseSignOut()}>Sign out</button>
                 </div>
             ) : (
